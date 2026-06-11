@@ -120,6 +120,10 @@ Distills everything from Rounds 1–3 into decision frameworks, common exam trap
 
 This project is licensed under the MIT License — feel free to use, modify, and share these prompts.
 
+---
+
+*If you found this helpful, please ⭐ star this repository and share it with others preparing for the SAP-C02 exam!*
+
 ## Contact
 
 Feel free to reach out to me! 👨‍💻 <br />

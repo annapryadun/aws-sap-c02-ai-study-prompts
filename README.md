@@ -6,7 +6,7 @@
 
 ## 📖 About
 
-This repository contains the exact prompts I used to prepare for and pass the **AWS Certified Solutions Architect — Professional (SAP-C02)** exam in 21 days using [Kiro](https://kiro.dev/) (an agentic AI-powered IDE) with Claude Sonnet 4.6.
+This repository contains the exact prompts I used to prepare for and pass the **AWS Certified Solutions Architect — Professional (SAP-C02)** exam in 16 days using [Kiro](https://kiro.dev/) (an agentic AI-powered IDE) with Claude Sonnet 4.6.
 
 Instead of traditional video courses and practice test platforms, I structured my preparation into four distinct rounds — each designed to build a specific skill needed for the exam. These prompts turn AI into an adaptive study partner that generates unique questions, tracks your weak areas, and provides immediate feedback with documentation links.
 

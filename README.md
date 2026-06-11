@@ -1,6 +1,5 @@
 <div align="center">
 <h1>AWS Certified Solutions Architect Professional</h1>
-<h2>Free Practice Exams with answers</h2>
 
 <img src="AWS-Certified-Solutions-Architect-Professional_badge.png">
 </div>

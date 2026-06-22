@@ -22,16 +22,17 @@ Instead of traditional video courses and practice test platforms, I structured m
 | File | Purpose |
 |------|---------|
 | `README.md` | You are here |
-| `CLAUDE.md` | Study partner context — loaded automatically by Claude Code |
-| `00-setup-prompt.md` | Setup reference and MCP configuration |
-| `01-round1-keyword-identification.md` | Train rapid info extraction |
-| `02-round2-elimination-technique.md` | Systematic option elimination |
-| `03-round3-full-practice.md` | Adaptive exam simulation |
-| `04-round4-note-consolidation.md` | Focused reference creation |
-| `.claude/commands/round1.md` | `/round1` slash command |
-| `.claude/commands/round2.md` | `/round2` slash command |
-| `.claude/commands/round3.md` | `/round3` slash command |
-| `.claude/commands/round4.md` | `/round4` slash command |
+| `CLAUDE.md` | Claude Code — study partner context, auto-loaded each session |
+| `.claude/commands/round1.md` | Claude Code — `/round1` slash command |
+| `.claude/commands/round2.md` | Claude Code — `/round2` slash command |
+| `.claude/commands/round3.md` | Claude Code — `/round3` slash command |
+| `.claude/commands/round4.md` | Claude Code — `/round4` slash command |
+| `.kiro/steering/aws-study-partner.md` | Kiro — study partner context, auto-loaded each session |
+| `.kiro/00-setup-prompt.md` | Kiro — setup reference and MCP configuration |
+| `.kiro/01-round1-keyword-identification.md` | Kiro — keyword identification prompts |
+| `.kiro/02-round2-elimination-technique.md` | Kiro — elimination technique prompts |
+| `.kiro/03-round3-full-practice.md` | Kiro — full practice prompts |
+| `.kiro/04-round4-note-consolidation.md` | Kiro — note consolidation prompts |
 
 ## Quick Start
 

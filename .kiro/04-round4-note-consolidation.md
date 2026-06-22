@@ -7,9 +7,11 @@ Create a concise, exam-focused reference document from all study materials and p
 ## Why This Matters
 In the final days before the exam, you need a focused reference — not hundreds of pages of documentation. This round distills everything into decision frameworks and key facts that directly help you answer questions.
 
-## Prompt
+## How to Start
 
-Copy everything between the two horizontal lines (---) below and paste it into Kiro after the setup prompt:
+Type `/round4` in Claude Code to begin. The slash command is pre-configured in `.claude/commands/round4.md`.
+
+The prompt Claude Code will use:
 
 ---
 
@@ -60,8 +62,6 @@ Based on our study sessions across Rounds 1–3, generate consolidated study not
 
 ---
 
-⚠️ **Everything below this point is for your reference only — do not paste into Kiro.**
-
 ## How to Use These Notes
 
 1. **Days 1–3 before exam**: Read through all domains, highlight anything unfamiliar
@@ -72,4 +72,3 @@ Based on our study sessions across Rounds 1–3, generate consolidated study not
 - Notes fit within 15–20 pages (concise enough to review in 2–3 hours)
 - Every bullet point is directly useful for answering exam questions
 - Decision frameworks cover the most common "A vs B" choices on the exam
-

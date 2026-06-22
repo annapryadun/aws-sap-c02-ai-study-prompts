@@ -7,9 +7,11 @@ Train the ability to rapidly extract relevant information from verbose scenarios
 ## Why This Matters
 SAP-C02 questions are intentionally verbose — packed with realistic but irrelevant details designed to simulate real-world ambiguity. Most of the text is context padding. This round trains you to cut through the noise and identify only what drives the correct answer.
 
-## Prompt
+## How to Start
 
-Copy everything between the two horizontal lines (---) below and paste it into Kiro after the setup prompt:
+Type `/round1` in Claude Code to begin. The slash command is pre-configured in `.claude/commands/round1.md`.
+
+The prompt Claude Code will use:
 
 ---
 
@@ -37,18 +39,15 @@ Focus areas for keyword generation:
 
 ---
 
-⚠️ **Everything below this point is for your reference only — do not paste into Kiro.**
-
 ## How to Practice
 
 1. Read the generated scenario carefully
 2. Write down your identified keywords (aim for 5–10 per question)
 3. Categorize them: **Constraints** | **Architecture** | **Problem** | **Goal**
-4. Submit your list to Kiro for feedback
+4. Submit your list for feedback
 5. Review what you missed and adjust your scanning technique
 
 ## Success Criteria
 - Consistently identifying 80%+ of relevant keywords
 - Correctly filtering out narrative filler
 - Completing keyword extraction in under 30 seconds per question
-

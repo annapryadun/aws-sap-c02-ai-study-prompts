@@ -1,8 +1,16 @@
-# Kiro Study Setup — AWS Solutions Architect Professional (SAP-C02)
+# Claude Code Study Setup — AWS Solutions Architect Professional (SAP-C02)
 
-## Initial Configuration Prompt
+## How This Works
 
-Paste this prompt between the two horizontal lines (---) into Kiro to configure your AI study partner:
+The setup prompt lives in `CLAUDE.md` at the root of this project. Claude Code automatically loads it at the start of every session — no manual pasting required.
+
+The study partner context is always active when you open this project in Claude Code.
+
+---
+
+## Setup Prompt (reference copy)
+
+The content below is what lives in `CLAUDE.md`. You don't need to copy this anywhere — it's already configured.
 
 ---
 
@@ -21,27 +29,43 @@ You are my dedicated study partner for the AWS Certified Solutions Architect —
 - Use realistic AWS service combinations and multi-service architectures
 - Include constraint phrases like "with minimal operational overhead," "most cost-effective," "without replacing existing components," etc.
 
-**MCP Servers to use:**
-- AWS Documentation MCP Server — for pulling accurate, up-to-date AWS docs
-- AWS Knowledge MCP Server — for querying service-specific details and best practices
+**MCP Tools to use:**
+- Use `mcp__aws-mcp__aws___search_documentation` to look up accurate, up-to-date AWS documentation
+- Use `mcp__aws-mcp__aws___read_documentation` to fetch full documentation pages
+- Use `mcp__aws-mcp__aws___recommend` for service-specific best practices
 
 **Key services to emphasize:**
 AWS Organizations, SCPs, Control Tower, VPC (peering, Transit Gateway, Direct Connect, PrivateLink), S3 (classes, lifecycle), EBS/EFS/FSx, Storage Gateway, RDS/Aurora/DynamoDB/Redshift/Neptune, DMS/MGN/DataSync/Snow Family, Lambda/Fargate/ECS/EKS/Batch, Kinesis/Glue/Athena/EMR/Lake Formation, IAM Identity Center/Cognito/KMS/Secrets Manager/WAF/Shield/GuardDuty, CloudFront, Route 53, EventBridge, Step Functions, and cost optimization strategies.
 
 ---
 
-⚠️ **Everything below this point is for your reference only — do not paste into Kiro.**
-
 ## Prerequisites
 
-1. Install [Kiro](https://kiro.dev/) IDE
-2. Configure the following MCP servers in your Kiro settings:
-   - [AWS Documentation MCP Server](https://awslabs.github.io/mcp/)
-   - [AWS Knowledge MCP Server](https://awslabs.github.io/mcp/)
-3. Ensure you have Claude Sonnet 4.6 (or later) selected as your model
-4. Download the [SAP-C02 Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf) and upload it to your Kiro workspace
+1. Install [Claude Code](https://claude.ai/code) (CLI or VSCode extension)
+2. Configure the AWS MCP server in your Claude Code settings:
+
+   Add to `~/.claude.json` (global) or `.mcp.json` (project level):
+   ```json
+   {
+     "mcpServers": {
+       "aws-mcp": {
+         "command": "uvx",
+         "args": ["awslabs.aws-mcp-servers@latest"]
+       }
+     }
+   }
+   ```
+3. Download the [SAP-C02 Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)
 
 ## Usage
 
-Paste the setup prompt above into Kiro at the start of each study session. Then proceed to the round-specific prompts (Rounds 1–4) based on where you are in your preparation timeline.
+Open this project directory in Claude Code. The study partner context loads automatically from `CLAUDE.md`.
 
+Start a round by typing a slash command:
+
+| Command | Round |
+|---------|-------|
+| `/round1` | Keyword Identification |
+| `/round2` | Elimination Technique |
+| `/round3` | Full Practice with Explanations |
+| `/round4` | Note Consolidation |

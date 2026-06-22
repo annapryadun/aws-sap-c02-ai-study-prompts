@@ -7,9 +7,11 @@ Develop systematic elimination of incorrect options before selecting the correct
 ## Why This Matters
 With 4 options per question, eliminating even 2 wrong answers improves your odds from 25% to 50%. The SAP-C02 options are architecturally plausible in isolation — the skill is recognizing which option most directly addresses the specific requirements and constraints.
 
-## Prompt
+## How to Start
 
-Copy everything between the two horizontal lines (---) below and paste it into Kiro after the setup prompt:
+Type `/round2` in Claude Code to begin. The slash command is pre-configured in `.claude/commands/round2.md`.
+
+The prompt Claude Code will use:
 
 ---
 
@@ -37,8 +39,6 @@ Track my elimination accuracy separately from my answer accuracy. After 10 quest
 
 ---
 
-⚠️ **Everything below this point is for your reference only — do not paste into Kiro.**
-
 ## Elimination Framework
 
 When evaluating each option, ask yourself:
@@ -55,4 +55,3 @@ When evaluating each option, ask yourself:
 - Correctly eliminating 2+ options per question before answering
 - Accurately categorizing elimination reasons
 - Identifying the "trap" option (the one designed to look correct but violates a constraint)
-

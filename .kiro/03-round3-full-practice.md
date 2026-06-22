@@ -7,9 +7,11 @@ Simulate exam conditions with adaptive difficulty and deep understanding of inco
 ## Why This Matters
 Unlike traditional practice test platforms with fixed question pools, this approach generates unique questions on demand, adapts to your weak areas, and allows follow-up questions for deeper understanding. The feedback loop accelerates learning significantly.
 
-## Prompt
+## How to Start
 
-Copy everything between the two horizontal lines (---) below and paste it into Kiro after the setup prompt:
+Type `/round3` in Claude Code to begin. The slash command is pre-configured in `.claude/commands/round3.md`.
+
+The prompt Claude Code will use:
 
 ---
 
@@ -48,8 +50,6 @@ Generate unique SAP-C02-style questions that adapt to my weak areas. Simulate ex
 
 ---
 
-⚠️ **Everything below this point is for your reference only — do not paste into Kiro.**
-
 ## Session Structure
 
 | Questions | Focus |
@@ -64,4 +64,3 @@ Generate unique SAP-C02-style questions that adapt to my weak areas. Simulate ex
 - 80%+ accuracy across all domains
 - Consistent performance under time pressure
 - Ability to explain WHY the correct answer is correct (not just recognize it)
-
